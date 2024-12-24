@@ -6,7 +6,8 @@ This project aims to assist individuals with motor impairments by analyzing thei
 ## **Dataset**  
 The dataset has been sourced from [BBCI IV Competition](https://www.bbci.de/competition/iv/).  
 - Multiple datasets are available, varying by the number of electrodes used in the EEG skull cap.  
-- This repository provides reference data for a **22-channel configuration**.  
+- This repository provides reference data for a **22-channel configuration**.
+- The raw, preprocessed and fused excel data is available at: https://drive.google.com/drive/folders/19OR4zfkGm4lE63fuDI-zDIPjry_tYYKK?usp=drive_link
 
 ![image](https://github.com/user-attachments/assets/174da9c0-db14-4956-bf71-730e0e7a7091)
 
