@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file
-data = pd.read_csv(r"C:\Users\selin\Desktop\Correct_Data\Fused.csv")  # Replace with your actual file path
+data = pd.read_csv(r"C:\Users\selin\Desktop\Correct_Data\Fused2f.csv")  # Replace with your actual file path
 
 # Iterate through each column and count zeroes
 columns_to_remove = []
@@ -18,8 +18,9 @@ for column in data.columns:
 data_cleaned = data.drop(columns=columns_to_remove)
 
 # Save the cleaned dataset
-output_file = r"C:\Users\selin\Desktop\Correct_Data\Fused_Cleaned.csv"
+output_file = r"C:\Users\selin\Desktop\Correct_Data\Fused_Cleaned2f.csv"
 data_cleaned.to_csv(output_file, index=False)
 
 print(f"Removed {len(columns_to_remove)} columns with more zeroes than non-zero values.")
 print(f"Cleaned dataset saved to: {output_file}")
+
