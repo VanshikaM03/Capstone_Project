@@ -40,7 +40,8 @@ The dataset has been sourced from [BBCI IV Competition](https://www.bbci.de/comp
      2. Selected the window with minimum log dispersion.  
      3. Applied the Savitzky-Golay filter with a polynomial order of 3.  
 
-![image](https://github.com/user-attachments/assets/787f7795-ff33-48ad-bab3-7d04fbf6af0c)
+![image](https://github.com/user-attachments/assets/71bccec9-b44e-461a-8e26-df77aef8bd32)
+
 
 6. **Normalization & Standardization:**  
    - Applied **z-score standardization** and **min-max normalization** for feature scaling.  
